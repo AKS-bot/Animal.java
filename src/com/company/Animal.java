@@ -8,6 +8,19 @@ public class Animal {
     String color;
     String gender;
 
+    // METHODS OF CLASS
     // behaviour -> eat , sleep , walk ,produce_sound , paly
 
+    public void eat(){
+        System.out.println("Eating ...");
+    }
+    public void Sleep(){
+        System.out.println("Sleeping...");
+    }
+    public void walk(){
+        System.out.println("walking...");
+    }
+    public void play(){
+        System.out.println("Playing...");
+    }
 }
